@@ -21,7 +21,7 @@ step1:Log in the background system as Administrator，Access system management -
 setp2:Extract the exported compressed file and modify the site.xml file
 ![](https://github.com/rebic/jspxcms/blob/master/12.png)
 
-step3.Recompress the extracted file to zip after modification
+step3:Recompress the extracted file to zip after modification
 
 Before modification
 ![](https://github.com/rebic/jspxcms/blob/master/13.png)
@@ -29,8 +29,8 @@ Before modification
 After modification
 ![](https://github.com/rebic/jspxcms/blob/master/14.png)
 
-step4.Import compressed file
+step4:Import compressed file
 ![](https://github.com/rebic/jspxcms/blob/master/15.png)
 
-step.Result
+step5:Final result
 ![](https://github.com/rebic/jspxcms/blob/master/16.png)

@@ -16,21 +16,21 @@ v6.5.1~6.5.4
 
 ## Vulnerability details
 step1:Log in the background system as Administrator，Access system management -> site management, select the default site, and click export
-![](https://github.com/rebic/jspxcms/blob/master/1.png)
+![](https://github.com/rebic/jspxcms/blob/master/11.png)
 
 setp2:Extract the exported compressed file and modify the site.xml file
-![](https://github.com/rebic/jspxcms/blob/master/2.png)
+![](https://github.com/rebic/jspxcms/blob/master/12.png)
 
 step3.Recompress the extracted file to zip after modification
 
 Before modification
-![](https://github.com/rebic/jspxcms/blob/master/3.png)
+![](https://github.com/rebic/jspxcms/blob/master/13.png)
 
 After modification
-![](https://github.com/rebic/jspxcms/blob/master/4.png)
+![](https://github.com/rebic/jspxcms/blob/master/14.png)
 
 step4.Import compressed file
-![](https://github.com/rebic/jspxcms/blob/master/5.png)
+![](https://github.com/rebic/jspxcms/blob/master/15.png)
 
 step.Result
-![](https://github.com/rebic/jspxcms/blob/master/6.png)
+![](https://github.com/rebic/jspxcms/blob/master/16.png)

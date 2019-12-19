@@ -22,9 +22,15 @@ setp2:Extract the exported compressed file and modify the site.xml file
 ![](https://github.com/rebic/jspxcms/blob/master/2.png)
 
 step3.Recompress the extracted file to zip after modification
+
+Before modification
 ![](https://github.com/rebic/jspxcms/blob/master/3.png)
-step4.Import compressed file
+
+After modification
 ![](https://github.com/rebic/jspxcms/blob/master/4.png)
 
-step.Result
+step4.Import compressed file
 ![](https://github.com/rebic/jspxcms/blob/master/5.png)
+
+step.Result
+![](https://github.com/rebic/jspxcms/blob/master/6.png)

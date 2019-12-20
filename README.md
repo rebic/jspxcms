@@ -34,4 +34,4 @@ step4:Import compressed file
 step5:The hosts file was successfully written to the database, but it should be noted that the maximum length allowed to write is: varchar (255)
 ![](https://github.com/rebic/jspxcms/blob/master/26.png)
 ![](https://github.com/rebic/jspxcms/blob/master/27.png)
-![](https://github.com/rebic/jspxcms/blob/master/28.png)
+![](https://github.com/rebic/jspxcms/blob/master/333.png)

@@ -21,8 +21,7 @@ step1:Log in the background system as Administrator，Access system management -
 setp2:Unzip the exported package. After unzip, the file list is as follows
 ![](https://github.com/rebic/jspxcms/blob/master/12.png)
 
-step3:Modify the site.xml file to insert at line 2“<!DOCTYPE ANY[<!ENTITY file SYSTEM "file:///etc/hosts">%file;]>
-”，Change line 97 to“<noPicture>&file;</noPicture>”
+step3:Modify the site.xml file, insert the data in line 2, and modify the data in line 97, as follows
 ![](https://github.com/rebic/jspxcms/blob/master/23.png)
 ![](https://github.com/rebic/jspxcms/blob/master/24.png)
 

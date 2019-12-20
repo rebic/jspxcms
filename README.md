@@ -18,19 +18,21 @@ v6.5.1~6.5.4
 step1:Log in the background system as Administrator，Access system management -> site management, select the default site, and click export
 ![](https://github.com/rebic/jspxcms/blob/master/11.png)
 
-setp2:Extract the exported compressed file and modify the site.xml file
+setp2:Unzip the exported package. After unzip, the file list is as follows
 ![](https://github.com/rebic/jspxcms/blob/master/12.png)
 
-step3:Recompress the extracted file to zip after modification
+step3:Modify the site.xml file to insert at line 2“<!DOCTYPE ANY[<!ENTITY file SYSTEM "file:///etc/hosts">%file;]>
+”，Change line 97 to“<noPicture>&file;</noPicture>”
+![](https://github.com/rebic/jspxcms/blob/master/23.png)
+![](https://github.com/rebic/jspxcms/blob/master/24.png)
 
-Before modification
-![](https://github.com/rebic/jspxcms/blob/master/13.png)
 
-After modification
-![](https://github.com/rebic/jspxcms/blob/master/14.png)
+step4:Compress the modified file to zip again
 
 step4:Import compressed file
 ![](https://github.com/rebic/jspxcms/blob/master/15.png)
 
-step5:Final result
-![](https://github.com/rebic/jspxcms/blob/master/16.png)
+step5:The hosts file was successfully written to the database, but it should be noted that the maximum length allowed to write is: varchar (255)
+![](https://github.com/rebic/jspxcms/blob/master/26.png)
+![](https://github.com/rebic/jspxcms/blob/master/27.png)
+![](https://github.com/rebic/jspxcms/blob/master/28.png)

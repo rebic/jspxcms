@@ -21,9 +21,12 @@ step1:Log in the background system as Administrator，Access system management -
 setp2:Unzip the exported package. After unzip, the file list is as follows
 ![](https://github.com/rebic/jspxcms/blob/master/12.png)
 
-step3:Modify the site.xml file, insert the data in line 2, and modify the data in line 97, as follows
-![](https://github.com/rebic/jspxcms/blob/master/23.png)
-![](https://github.com/rebic/jspxcms/blob/master/24.png)
+step3:Modify the info.xml file, For more intuitive test results, delete redundant test data,keep a piece of test data
+Insert the following statement in the second line of the XML file：
+  <!DOCTYPE aa [
+  <!ENTITY file SYSTEM "file:///etc/passwd" >]>
+Modify the text property value of info object to: & file; the result is as follows
+![](https://github.com/rebic/jspxcms/blob/master/info.png)
 
 
 step4:Compress the modified file to zip again
@@ -31,7 +34,5 @@ step4:Compress the modified file to zip again
 step4:Import compressed file
 ![](https://github.com/rebic/jspxcms/blob/master/15.png)
 
-step5:The hosts file was successfully written to the database, but it should be noted that the maximum length allowed to write is: varchar (255)
-![](https://github.com/rebic/jspxcms/blob/master/26.png)
-![](https://github.com/rebic/jspxcms/blob/master/27.png)
-![](https://github.com/rebic/jspxcms/blob/master/333.png)
+step5:The hosts file was successfully written to the database, can be viewed at the front-end site
+![](https://github.com/rebic/jspxcms/blob/master/passwd.png)

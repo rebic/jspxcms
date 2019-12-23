@@ -34,8 +34,8 @@ Modify the text property value of info object to: & file; the result is as follo
 
 step4:Compress the modified file to zip again
 
-step4:Import compressed file
+step5:Import compressed file
 ![](https://github.com/rebic/jspxcms/blob/master/15.png)
 
-step5:The passwd file was successfully written to the database, can be viewed at the front-end site
+step6:The passwd file was successfully written to the database, can be viewed at the front-end site
 ![](https://github.com/rebic/jspxcms/blob/master/passwd.png)

@@ -25,8 +25,7 @@ step3:Modify the info.xml file, For more intuitive test results, delete redundan
 
 Insert the following statement in the second line of the XML file：
 
- “ <!DOCTYPE aa [
-  <!ENTITY file SYSTEM "file:///etc/passwd" >]>”
+  <!DOCTYPE aa `[<!ENTITY file SYSTEM "file:///etc/passwd" >]`>
   
 Modify the text property value of info object to: & file; the result is as follows
 ![](https://github.com/rebic/jspxcms/blob/master/info.png)

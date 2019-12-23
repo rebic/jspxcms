@@ -22,9 +22,12 @@ setp2:Unzip the exported package. After unzip, the file list is as follows
 ![](https://github.com/rebic/jspxcms/blob/master/12.png)
 
 step3:Modify the info.xml file, For more intuitive test results, delete redundant test data,keep a piece of test data
+
 Insert the following statement in the second line of the XML file：
-  <!DOCTYPE aa [
-  <!ENTITY file SYSTEM "file:///etc/passwd" >]>
+
+ “ <!DOCTYPE aa [
+  <!ENTITY file SYSTEM "file:///etc/passwd" >]>”
+  
 Modify the text property value of info object to: & file; the result is as follows
 ![](https://github.com/rebic/jspxcms/blob/master/info.png)
 
@@ -34,5 +37,5 @@ step4:Compress the modified file to zip again
 step4:Import compressed file
 ![](https://github.com/rebic/jspxcms/blob/master/15.png)
 
-step5:The hosts file was successfully written to the database, can be viewed at the front-end site
+step5:The passwd file was successfully written to the database, can be viewed at the front-end site
 ![](https://github.com/rebic/jspxcms/blob/master/passwd.png)
